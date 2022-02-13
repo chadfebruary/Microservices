@@ -17,7 +17,7 @@ using Microsoft.OpenApi.Models;
 //using PlatformService.AsyncDataServices;
 using PlatformService.Data;
 //using PlatformService.SyncDataServices.Grpc;
-//using PlatformService.SyncDataServices.Http;
+using PlatformService.SyncDataServices.Http;
 
 namespace PlatformService
 {
@@ -50,7 +50,7 @@ namespace PlatformService
 
             services.AddScoped<IPlatformRepo, PlatformRepo>();
 
-            //services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
+            services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
             //services.AddSingleton<IMessageBusClient, MessageBusClient>();
             services.AddGrpc();
             services.AddControllers();

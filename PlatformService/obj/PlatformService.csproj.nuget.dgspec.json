@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Microservices\\platformservice\\PlatformService.csproj": {}
+    "C:\\MicroServices\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "C:\\Microservices\\platformservice\\PlatformService.csproj": {
+    "C:\\MicroServices\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Microservices\\platformservice\\PlatformService.csproj",
+        "projectUniqueName": "C:\\MicroServices\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "C:\\Microservices\\platformservice\\PlatformService.csproj",
+        "projectPath": "C:\\MicroServices\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\Chad\\.nuget\\packages\\",
-        "outputPath": "C:\\Microservices\\platformservice\\obj\\",
+        "outputPath": "C:\\MicroServices\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Chad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,20 +92,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[5.0.12, 5.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
             }
           ],
           "frameworkReferences": {
